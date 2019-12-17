@@ -30,10 +30,10 @@ $gd->grabImage('test.jpg')
 	->addAction('rotate','80')
 	->addAction('crop','500','450','40','100')
 	->addAction('resize','700','150')
-	->addAction('resize',334,140);
+	->addAction('resize',334,140)
 	->addAction('crop','334','140','0','0')
 	->addAction('waterMark','logo.gif','right','bottom','20')
-	->addAction('waterMark','logo-web.png','left','bottom','40')
+	->addAction('waterMark','logo.png','left','bottom','40')
 	->saveImage('test2','jpg')
 	->showImage();
 ?>
