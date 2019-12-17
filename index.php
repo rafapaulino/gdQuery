@@ -34,6 +34,5 @@ $gd->grabImage('test.jpg')
 	->addAction('crop','334','140','0','0')
 	->addAction('waterMark','logo.gif','right','bottom','20')
 	->addAction('waterMark','logo.png','left','bottom','40')
-	->saveImage('test2','jpg')
-	->showImage();
-?>
+	->saveImage('test2','jpg');
+	//->showImage();

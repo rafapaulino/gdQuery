@@ -1,0 +1,25 @@
+{
+    "name": "gdquery/gdquery",
+    "description": "",
+    "keywords": [],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Rafael Paulino",
+            "email": "rafaclasses@gmail.com",
+            "homepage": "http://rafapaulino.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": { "GdQuery\\": "src/" },
+        "classmap": [
+            "src"
+        ]
+    }
+}

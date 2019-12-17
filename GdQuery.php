@@ -52,17 +52,17 @@ class GdQuery
         */
         $this->_memory = $_imageInfo[0] * $_imageInfo[1] * $_imageInfo['bits'];
 
-       if($this->_memory > self::$_memoryLimit)
-       {
-           throw new Exception("Memoria insuficiente para a criacao da imagem - Insufficient memory for image creation");
-           return false;
-       }
+       //if($this->_memory > self::$_memoryLimit)
+       //{
+           //throw new Exception("Memoria insuficiente para a criacao da imagem - Insufficient memory for image creation");
+           //return false;
+       //}
 
        /*
         * Caso contrario o procedimento continua
         */
-       else
-       {
+       //else
+       //{
            //largura
            $this->_width  = $_imageInfo[0];
 
@@ -109,7 +109,7 @@ class GdQuery
                  return $this;
              }
 
-       }
+       //}
 	   
    }
 
